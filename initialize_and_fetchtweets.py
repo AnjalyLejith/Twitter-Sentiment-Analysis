@@ -7,13 +7,13 @@ def get_related_tweets(text_query):
     
     pd.set_option('display.max_colwidth', 1000)
     # api key
-    api_key = "MpB3fSTnqYw6ayG14kJD73K8a"
+    api_key = "Enter API key"
     # api secret key
-    api_secret_key = "zcDYINnHYYraa4rd5a8r5bGzBxPqxaUlXskhvtWFIFMAAPy18G"
+    api_secret_key = "Enter API Secret key"
     # access token
-    access_token = "1423879756219437057-uXlyhDzdlx85EC6Jwd1SoFfPS7fOkY"
+    access_token = "Enter Access token"
     # access token secret
-    access_token_secret = "AAATRTeaS92hwnJ7zwYsKueaFqTOkGsEBdwUfwkVapIBn"
+    access_token_secret = "Enter Access token secret"
 
     # authorize the API Key
     authentication = tweepy.OAuthHandler(api_key, api_secret_key)
